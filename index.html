@@ -3,168 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>トップページ | マツキ</title>
-    <link rel="stylesheet" href="main.css" />
+    <title>トップページ | マツキノ</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <header class="header">
-      <a href="index.html" class="header__logo-top">M</a>
-      <nav class="header__nav">
-        <ul class="header__menu">
-          <li class="header__item"><a href="#">できること</a></li>
-          <li class="header__item"><a href="#">できないこと</a></li>
-          <li class="header__item"><a href="#">作ったもの</a></li>
-          <li class="header__item"><a href="#">自己紹介</a></li>
-          <li class="header__item"><a href="#">お問い合わせ</a></li>
+    <header class="header-section">
+      <a href="../index.html">マツキノ</a>
+      <nav>
+        <ul>
+          <li>自己紹介</li>
+          <li>作ったもの</li>
+          <li>できること</li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <div class="main-visual">
-        <div class="main-logo">MATSUKI</div>
-      </div>
-
-      <div>
-        <section>
-          <div class="h2-wrapper">
-            <h2>できること</h2>
-          </div>
-          <div>
-            <ul>
-              <li>
-                <div>
-                  <i class="far fa-file-code"></i>
-                  <p>HTML / CSS</p>
-                  <p>
-                    Webサイトのコーディングができます。このポートフォリオはデザインも自作です。
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <i class="fab fa-js-square"></i>
-                  <p>JavaScript</p>
-                  <p>
-                    Webサイトに動きや簡単な機能をつけることができます。気軽にご相談ください。
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <i class="fas fa-film"></i>
-                  <p>動画編集</p>
-                  <p>
-                    友人の結婚式で5分ほどの余興動画を作ったことがあります。編集にはAdobe製品を使用します。
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <i class="far fa-lightbulb"></i>
-                  <p>一緒に考える</p>
-                  <p>
-                    相談相手になることができます。Web関係からラーメンの話まで、裾野を広げてお待ちしています。
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <section>
-          <h2>できないこと</h2>
-          <div>
-            <ul>
-              <li>
-                <div>
-                  <i class="fas fa-phone-slash"></i>
-                  <p>頻繁な電話打合せ</p>
-                  <p>
-                    基本的にはテキストベースでのやりとりをお願いしております。
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <i class="fas fa-subway"></i>
-                  <p>通勤</p>
-                  <p>
-                    対面の打合せや低頻度の通勤は対応可能なこともあるため、一度ご相談ください。
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <i class="far fa-frown"></i>
-                  <p>嘘をつくこと</p>
-                  <p>
-                    人を騙してお金を得るようなお仕事には協力することができません。
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <section>
-          <h2>作ったもの</h2>
-          <div class="carousel">
-            <ul class="slides">
-              <li><img src="" width="350" height="350" alt="" /></li>
-              <li>
-                <img src="" width="350" height="350" alt="Comming Soon" />
-              </li>
-              <li>
-                <img src="" width="350" height="350" alt="Comming Soon" />
-              </li>
-              <li>
-                <img src="" width="350" height="350" alt="Comming Soon" />
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <section>
-          <h2>自己紹介</h2>
-          <div class="introduction_wrapper">
-            <img src="./images/profile-icon.jpg" alt="プロフィール画像" />
-            <p>
-              「マツキ」と名乗る者。<br />
-              Web系事業会社でエンジニアとして勤務していたが、体調不良で退職。現在は体調を整えながら、プログラミングに再チャレンジ中。<br />
-              趣味は読書・漫画・ゲームなど。朝の散歩が日課。爬虫類も好き。<br />
-              クリエイターが死なないための貢献がしたい。
-            </p>
-          </div>
-        </section>
-
-        <section>
-          <h2>お問い合わせ</h2>
-          <form action="">
-            <label for="name">お名前</label>
-            <input type="text" id="name" />
-            <br />
-
-            <label for="email">メールアドレス</label>
-            <input type="email" id="email" />
-            <br />
-
-            <label for="contents">お問い合わせ内容</label>
-            <input type="text" id="contents" />
-            <br />
-
-            <input type="submit" value="送信" />
-          </form>
-        </section>
-      </div>
+    <main class="main-section">
+      <section class="profile-section">
+        <img src="images/profile-icon.jpg" alt="製作者マツキのプロフィール画像">
+        <p>マツキ</p>
+        <p>Web系企業で主にバックエンドを担当<br>
+          体調不良で退職し、療養しながら人生再チャレンジ<br>
+          Web制作・動画編集のお仕事募集中</p>
+      </section>
+      <section class="works-section">
+        <h2>作ったもの</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <h3></h3>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h3></h3>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h3></h3>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="skills-section">
+        <h2>できること</h2>
+        <ul>
+          <li>
+            <img src="" alt="">
+            <h3>HTML</h3>
+          </li>
+          <li>
+            <img src="" alt="">
+            <h3>CSS</h3>
+          </li>
+          <li>
+            <img src="" alt="">
+            <h3>JavaScript</h3>
+          </li>
+          <li>
+            <img src="" alt="">
+            <h3>動画編集</h3>
+          </li>
+        </ul>
+      </section>
+      <section class="contact-section">
+        <h2>お問い合わせ</h2>
+        <a href="#">DMを送る<img src="" alt=""></a>
+      </section>
     </main>
 
-    <footer></footer>
-
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
-    ></script>
+    <footer class="footer-section">
+      <small>&copy; 2020 Matsuki</small>
+    </footer>
   </body>
 </html>
