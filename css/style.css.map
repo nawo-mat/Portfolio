@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,eAAe,CAAC;EACd,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAO;CAO1B;;AANE,AAAD,0BAAY,CAAA;EACV,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,GAAI;EACb,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/Layout/_main-section.scss",
+        "../scss/Layout/_header-section.scss",
+        "../scss/Layout/_footer-section.scss",
+        "../scss/Object/Project/_profile-section.scss",
+        "../scss/Object/Project/_works-section.scss",
+        "../scss/Object/Project/_skills-section.scss",
+        "../scss/Object/Project/_contact-section.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
