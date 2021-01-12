@@ -42,4 +42,44 @@ h2 {
   font-size: 20px;
   border-radius: 25px;
 }
+
+@media screen and (min-width: 768px) {
+  .profile-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.profile-section__profile-image {
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-section__profile-image {
+    margin: 0 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .profile-section__author-text-area {
+    text-align: left;
+  }
+}
+
+.profile-section__author-name {
+  font-size: 1.2em;
+}
+
+.profile-section__author-description {
+  font-size: 0.8em;
+}
 /*# sourceMappingURL=style.css.map */

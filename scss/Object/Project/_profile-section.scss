@@ -1,8 +1,26 @@
 .profile-section {
+  @include mq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   &__profile-image {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 100%;
+    @include mq {
+      margin: 0 70px;
+    }
+  }
+  &__author-text-area {
+    @include mq {
+      text-align: left;
+    }
   }
   &__author-name {
+    font-size: 1.2em;
   }
   &__author-description {
+    font-size: 0.8em;
   }
 }
