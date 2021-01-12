@@ -82,4 +82,50 @@ h2 {
 .profile-section__author-description {
   font-size: 0.8em;
 }
+
+.works-section__work-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .works-section__work-list {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}
+
+.works-section__work-item {
+  width: 300px;
+  height: 200px;
+  background: url(/images/work_sample.png) no-repeat center;
+  border: 1px solid #094067;
+  border-radius: 8px;
+  margin: 20px 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .works-section__work-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
+.works-section__work-item-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 /*# sourceMappingURL=style.css.map */

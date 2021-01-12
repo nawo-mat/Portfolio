@@ -1,0 +1,31 @@
+.works-section {
+  &__work-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    @include mq {
+      flex-wrap: nowrap;
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+  }
+  &__work-item {
+    width: 300px;
+    height: 200px;
+    background: url(/images/work_sample.png) no-repeat center;
+    border: 1px solid #094067;
+    border-radius: 8px;
+    margin: 20px 30px;
+    @include mq {
+      flex: 1;
+    }
+  }
+  &__work-item-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
