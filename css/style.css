@@ -83,6 +83,10 @@ h2 {
   font-size: 0.8em;
 }
 
+.works-section {
+  background-color: #D8EEFE;
+}
+
 .works-section__work-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,6 +114,7 @@ h2 {
   width: 300px;
   height: 200px;
   background: url(/images/work_sample.png) no-repeat center;
+  background-color: #fffffe;
   border: 1px solid #094067;
   border-radius: 8px;
   margin: 20px 30px;
