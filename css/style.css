@@ -43,6 +43,10 @@ h2 {
   border-radius: 25px;
 }
 
+.profile-section {
+  margin: 30px auto;
+}
+
 @media screen and (min-width: 768px) {
   .profile-section {
     display: -webkit-box;
