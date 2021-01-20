@@ -156,6 +156,7 @@ h2 {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     max-width: 1080px;
+    height: 300px;
   }
 }
 
