@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="robots" content="noindex">
+    <title>レンタルスペースMonoBase（モノベース）</title>
+    <meta
+      name="description"
+      content="架空のレンタルスペースMonoBase（モノベース）のホームページです。"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Open+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="l-header">
+      <div class="l-header__logo-menu">
+        <div class="l-header__logo-area">
+          <a href="./index.html">
+            <img src="img/rental-space-monobase-logo-bk.svg" alt="レンタルスペース MonoBase（モノベース）" />
+          </a>
+        </div>
+        <!-- SP -->
+        <nav class="l-nav">
+          <div class="l-nav__sp">
+            <div class="l-nav__toggle">
+              <input id="l-nav-input" type="checkbox" class="l-nav__hidden" />
+              <label class="l-nav__hamburger-area" for="l-nav-input"
+                ><span class="l-nav__hamburger-icon"></span
+              ></label>
+              <label class="l-nav__unshown" for="l-nav-input"></label>
+              <div class="l-nav__menu-area">
+                <ul class="l-nav__list">
+                  <li class="l-nav__item">
+                    <a class="l-nav__link" href="#service"
+                      >Service<br />サービス</a
+                    >
+                  </li>
+                  <li class="l-nav__item">
+                    <a class="l-nav__link" href="#plan">Plan<br />プラン</a>
+                  </li>
+                  <li class="l-nav__item">
+                    <a class="l-nav__link" href="#access"
+                      >Access<br />アクセス</a
+                    >
+                  </li>
+                  <li class="l-nav__item">
+                    <a class="l-nav__link" href="#contact"
+                      >Contact<br />コンタクト</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- PC -->
+          <div class="l-nav__pc">
+            <ul class="l-nav__list">
+              <li class="l-nav__item">
+                <a class="l-nav__link" href="#service">Service<br />サービス</a>
+              </li>
+              <li class="l-nav__item">
+                <a class="l-nav__link" href="#plan">Plan<br />プラン</a>
+              </li>
+              <li class="l-nav__item">
+                <a class="l-nav__link" href="#access">Access<br />アクセス</a>
+              </li>
+              <li class="l-nav__item">
+                <a class="l-nav__link" href="#contact">Contact<br />コンタクト</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="mv-section" id="mv-section">
+        <h1 class="mv-section__title">
+          ”ひとつ”になれる<br class="mv-section__br-sp">レンタルスペース
+        </h1>
+        <button type="button" onclick="location.href='#'" class="button--reverse">Web予約はこちら</button>
+      </section>
+      <section class="info-section" id="info-section">
+        <div class="info-section__inner-area">
+          <div class="info-section__text-area">
+            <h2 class="info-section__title">利用人数や目的に<br class="info-section__br-sp">合わせて選べます</h2>
+            <p class="info-section__text">MonoBaseでは、利用人数や利用目的に合わせてお部屋のタイプやご利用プランを選ぶことができます。少人数のミーティングから、100人規模のセミナーまで広く取り扱っております。<br>
+            見学やご相談も承っておりますので、まずはお気軽にお問い合わせください。</p>
+          </div>
+          <img class="info-section__img" src="img/lobby-info.jpg" alt="レンタルスペースMonoBaseロビーの写真">
+        </div>
+      </section>
+      <section class="service-section" id="service-section">
+        <div class="l-section-inner">
+          <h2 class="heading2">Service</h2>
+          <h3>サービス</h3>
+          <p class="text-center">すべてのプランに標準でご利用いただけるサービスです。<br class="service-section__only-pc">その他にも会議に必要な備品など数多く取り揃えておりますので、申し込み時にお問い合わせください。</p>
+          <ul class="service-section__service-list">
+            <li class="service-section__service-item">
+              <img class="service-section__service-icon" src="img/service-icon_01.svg" alt="Free Wi-Fi">
+              <h4>Free Wi-Fi</h4>
+              <p>無料のWi-Fiを完備しております。ご自由にご利用ください。 </p>
+            </li>
+            <li class="service-section__service-item">
+              <img class="service-section__service-icon" src="img/service-icon_02.svg" alt="収録サービス">
+              <h4>収録サービス</h4>
+              <p>会議内容を収録できるボイスレコーダーの貸し出しをしております。</p>
+            </li>
+            <li class="service-section__service-item">
+              <img class="service-section__service-icon" src="img/service-icon_03.svg" alt="ホワイトボード">
+              <h4>ホワイトボード</h4>
+              <p>プリント可能なホワイトボードを各部屋に設置しています。</p>
+            </li>
+            <li class="service-section__service-item">
+              <img class="service-section__service-icon" src="img/service-icon_04.svg" alt="ドリンクサービス">
+              <h4>ドリンクサービス</h4>
+              <p>ロビーのドリンクバーをご利用いただけます。</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="plan-section" id="plan-section">
+        <div class="l-section-inner">
+          <h2 class="heading2">Plan</h2>
+          <h3>プラン</h3>
+          <p class="text-center">ご利用人数や目的に合わせて、<br class="plan-section__pc-only">様々なプランをご用意しております。</p>
+          <ul class="plan-section__plan-list">
+            <li class="plan-section__plan-item">
+              <img class="plan-section__room-image" src="img/plan_01.jpg" alt="ミーティングプラン">
+              <div class="plan-info">
+                <h4 class="plan-info__info-title">ミーティングプラン</h4>
+                <p>少人数のミーティング向けプランです。全室、外が見える開放感あるお部屋で、30分からのご利用が可能です。</p>
+                <ul>
+                  <li class="plan-info__detail-item">2〜6人でのご利用</li>
+                  <li class="plan-info__detail-item">モニター</li>
+                </ul>
+                <p class="plan-info__plan-price">3,000円／30分～</p>
+              </div>
+            </li>
+            <li class="plan-section__plan-item">
+              <img class="plan-section__room-image" src="img/plan_02.jpg" alt="会議室プラン">
+              <div class="plan-info">
+                <h4 class="plan-info__info-title">会議室プラン</h4>
+                <p>PCの投影が出来るワイドモニター付きのプランです。プレゼンテーションやレッスン等でもご利用いただけます。</p>
+                <ul>
+                  <li class="plan-info__detail-item">4〜10人でのご利用</li>
+                  <li class="plan-info__detail-item">50インチモニター</li>
+                </ul>
+                <p class="plan-info__plan-price">20,000円／60分～</p>
+              </div>
+            </li>
+            <li class="plan-section__plan-item">
+              <img class="plan-section__room-image" src="img/plan_03.jpg" alt="セミナープラン">
+              <div class="plan-info">
+                <h4 class="plan-info__info-title">セミナープラン</h4>
+                <p>大人数対応のプランです。パーティションで区切ることで、利用人数によってお部屋の大きさを変えることができます。</p>
+                <ul>
+                  <li class="plan-info__detail-item">30〜100人でのご利用</li>
+                  <li class="plan-info__detail-item">プロジェクター</li>
+                </ul>
+                <p class="plan-info__plan-price">60,000円／60分～</p>
+              </div>
+            </li>
+          </ul>
+          <button class="button--reverse" type="button" onclick="location.href='#'">Web予約はこちら</button>
+        </div>
+      </section>
+      <section class="access-section" id="access-section">
+        <div class="l-section-inner">
+          <h2 class="heading2">Access</h2>
+          <h3>アクセス</h3>
+          <div class="access-section__contents">
+            <div>
+              <p class="access-section__lead-text">電車でお越しの場合</p>
+              <p>〇〇駅 徒歩5分<br>
+                〇〇ビルの2Fが受付になります。<br>
+                北口から商店街をまっすぐ抜け、区役所を左折すると右手に見えるビルです。</p>
+            </div>
+            <img class="access-section__img" src="img/appearance.jpg" alt="〇〇ビル外観写真">
+          </div>
+          <!-- GoogleMap -->
+          <p style="font-size: small; margin: 0;">※仮として皇居を表示しています</p>
+          <div class="access-section__map-area">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6481.435338165191!2d139.7484871773161!3d35.68395323525355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c0b36efb85f%3A0xdc5d1ef8b9350164!2z44CSMTAwLTAwMDEg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65Y2D5Luj55Sw77yR!5e0!3m2!1sja!2sjp!4v1611365567771!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" class="access-section__access-map"></iframe>
+          </div>
+          <!-- /GoogleMap -->
+        </div>
+      </section>
+      <div class="pagetop-link-area">
+        <a href="#mv-section">ページトップ</a>
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="l-section-inner">
+        <div class="l-footer__logo-area">
+          <img class="l-footer__logo" src="img/rental-space-monobase-logo-w.svg" alt="レンタルスペースMonoBase（モノベース）">
+        </div>
+        <p class="text-center">
+          見学やセミナーのご相談など<br class="l-footer__only-sp">お気軽にご連絡ください
+        </p>
+        <address class="l-footer__phone-number-area">
+          TEL:<a class="l-footer__phone-number" href="tel:00-1234-5678">00-1234-5678</a>
+        </address>
+      </div>
+      <small class="l-footer__copyright">&copy; Naoki Matsuyama.</small>
+    </footer>
+  </body>
+</html>

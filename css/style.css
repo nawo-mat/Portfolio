@@ -1,0 +1,237 @@
+* {
+  color: #094067;
+}
+
+body {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  display: inline-block;
+  padding: 0 1.5rem 0.5rem;
+  border-bottom: 2px solid #094067;
+}
+
+.footer-section {
+  width: 100%;
+  background-color: #094067;
+}
+
+.footer-section__copyright {
+  text-align: center;
+  padding: 1em;
+  font-size: 0.8em;
+  color: #fffffe;
+}
+
+.button,
+.button--twitter {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.button--twitter {
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #3DA9FC;
+  color: #fffffe;
+  font-size: 20px;
+  border-radius: 25px;
+}
+
+.profile-section {
+  margin: 30px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.profile-section__profile-image {
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-section__profile-image {
+    margin: 0 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .profile-section__author-text-area {
+    text-align: left;
+  }
+}
+
+.profile-section__author-name {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.profile-section__author-description {
+  font-size: 0.8em;
+  line-height: 2em;
+}
+
+.works-section {
+  background-color: #D8EEFE;
+}
+
+.works-section__work-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .works-section__work-list {
+    flex-wrap: nowrap;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}
+
+.works-section__work-item {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #fffffe;
+  border: 1px solid #094067;
+  border-radius: 8px;
+  margin: 20px 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .works-section__work-item {
+    flex: 1;
+  }
+}
+
+.works-section__work-item-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.works-section__work-item-header {
+  margin: 0;
+  color: #fffffe;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.works-section__new-window-icon {
+  display: inline-block;
+  content: "";
+  position: relative;
+  margin-left: 10px;
+  width: 0.8em;
+  height: 0.8em;
+  background: url(../images/new-window-icon.svg);
+}
+
+.works-section__work-item-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.works-section__dark-box {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skills-section__skill-list {
+  margin: 0 auto;
+  max-width: 300px;
+  height: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-section__skill-list {
+    flex-wrap: nowrap;
+    max-width: 1080px;
+    height: 300px;
+  }
+}
+
+.skills-section__skill-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 140px;
+  height: 200px;
+  border: 1px solid #094067;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-section__skill-item {
+    width: 20vw;
+    max-width: 250px;
+    height: 300px;
+  }
+}
+
+.skills-section__skill-icon {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-section__skill-icon {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+.skills-section__skill-name {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-section__skill-name {
+    font-size: 1.5em;
+  }
+}
+
+.contact-section__message-image {
+  width: 300px;
+  height: 225px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-section__message-image {
+    width: 500px;
+    height: 375px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

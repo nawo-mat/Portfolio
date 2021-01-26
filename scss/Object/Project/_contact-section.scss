@@ -1,0 +1,13 @@
+.contact-section{
+  &__message-area {
+
+  }
+  &__message-image {
+    width: 300px;
+    height: 225px;
+    @include mq {
+      width: 500px;
+      height: 375px;
+    }
+  }
+}
