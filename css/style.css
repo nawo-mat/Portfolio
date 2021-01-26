@@ -194,6 +194,7 @@ h2 {
 @media screen and (min-width: 768px) {
   .skills-section__skill-item {
     width: 20vw;
+    max-width: 250px;
     height: 300px;
   }
 }
