@@ -133,6 +133,16 @@ h2 {
   transform: translate(-50%, -50%);
 }
 
+.works-section__new-window-icon {
+  display: inline-block;
+  content: "";
+  position: relative;
+  margin-left: 10px;
+  width: 0.8em;
+  height: 0.8em;
+  background: url(../images/new-window-icon.svg);
+}
+
 .works-section__work-item-image {
   width: 100%;
   height: 100%;
