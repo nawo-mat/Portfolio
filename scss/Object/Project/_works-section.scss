@@ -17,7 +17,6 @@
     position: relative;
     width: 300px;
     height: 200px;
-    background: url(/images/work_sample.png) no-repeat center;
     background-color: #fffffe;
     border: 1px solid #094067;
     border-radius: 8px;
@@ -35,6 +34,21 @@
     margin: 0;
     color: #fffffe;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &__work-item-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  &__dark-box {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
