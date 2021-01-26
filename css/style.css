@@ -74,11 +74,13 @@ h2 {
 }
 
 .profile-section__author-name {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 
 .profile-section__author-description {
   font-size: 0.8em;
+  line-height: 2em;
 }
 
 .works-section {
